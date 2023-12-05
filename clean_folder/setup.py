@@ -11,5 +11,9 @@ setup(
     license='MIT',
     packages=find_namespace_packages(),
     install_requires=[],
-    entry_points={'console_scripts': ['clean_folder = clean_folder.clean:main']}
-        )
+    entry_points={
+        'console_scripts': [
+            'clean_folder = clean_folder.clean:main'
+        ]
+    },
+)
