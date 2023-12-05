@@ -136,8 +136,12 @@ def sorted(folder_platform_path):
     post_processor(results_path, extensions_info)
 
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) != 2:
         raise RuntimeError(f"usage: {sys.argv[0]} folder_platform_path")
 
     sorted(sys.argv[1])
+
+
+if __name__ == "__main__":
+    main()
