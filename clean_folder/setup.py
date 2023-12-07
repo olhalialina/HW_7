@@ -10,7 +10,7 @@ setup(
     author_email='dreadful26@gmail.com',
     license='MIT',
     packages=find_namespace_packages(),
-    install_requires=[],
+    install_requires=['transliterate'],
     entry_points={
         'console_scripts': [
             'clean-folder = clean_folder.clean:main'
